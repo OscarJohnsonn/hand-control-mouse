@@ -15,8 +15,8 @@ cap = cv2.VideoCapture(0)
 screen_width, screen_height = pyautogui.size()
 
 # Reduce frame size for better performance
-frame_width = 320  # Reduced resolution
-frame_height = 240  # Reduced resolution
+frame_width = 1920  # Reduced resolution
+frame_height = 1080  # Reduced resolution
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, frame_width)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, frame_height)
 
